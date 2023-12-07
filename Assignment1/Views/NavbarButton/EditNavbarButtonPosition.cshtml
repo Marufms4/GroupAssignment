@@ -1,0 +1,19 @@
+﻿@model LoginButtonPosition
+
+@{
+    ViewBag.Title = "Edit Button Postion";
+}
+
+    <form asp-action="EditNavbarButtonPosition" asp-controller="NavbarButton" method="post" enctype="multipart/form-data">
+        <input hidden asp-for="Id"/>
+        <label>
+            <input asp-for="Position" type="radio" name="position" value="Right" checked>
+            Right
+        </label>
+        <label>
+            <input asp-for="Position" type="radio" name="position" value="Left">
+            Left
+        </label>
+    <button type="submit" class="btn btn-primary"> Change Button Position </button>
+    </form>
+    

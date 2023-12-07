@@ -1,0 +1,21 @@
+﻿@model CreateNavbarButtonViewModel
+
+@{
+    ViewBag.Title = "Create Navbar Button";
+}
+
+<form method="post" enctype="multipart/form-data" asp-action="Create" asp-controller="NavbarButton">
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <div class="form-group">
+        <label asp-for="ButtonName"></label>
+        <input asp-for="ButtonName" class="form-control" />
+        <span asp-validation-for="ButtonName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Url"></label>
+        <input asp-for="Url" class="form-control" />
+        <span asp-validation-for="Url" class="text-danger"></span>
+    </div>
+    <br />
+    <button type="submit" class="btn btn-primary">Create Button</button>
+</form>

@@ -1,0 +1,63 @@
+﻿@model IEnumerable<ApplicationUser>
+
+@{
+    ViewBag.Title = "All Users";
+}
+
+@if (Model.Any())
+{
+    <a class="btn btn-primary mb-3" style="width:auto" asp-action="Register" asp-controller="Account">
+        Create User
+    </a>
+    foreach (var user in Model)
+    {
+        var photoPath = "~/Images/" + (user.PhotoPath ?? "default.jpg");
+        <div class="card-mb-3">
+            <div class="card-header">
+                Role Id: @user.Id
+            </div>
+            <div class="card-body">
+                @if (user.PhotoPath != string.Empty)
+                {
+                    <img src="@photoPath" alt="User Photo" class="img-fluid rounded-circle" style="max-width: 50px; max-height: 50px;" asp-append-version="true" />
+                }
+                <h5 class="card-title">@user.FirstName @user.LastName</h5>
+            </div>
+            <div class="card-footer">
+                <form asp-action="DeleteUser" asp-controller="Administrator" asp-route-id="@user.Id" method="post">
+                    <a asp-action="EditUser" asp-controller="Administrator"
+                       asp-route-id="@user.Id" class="btn btn-primary">Edit</a>
+
+                    <span id="confirmDeleteSpan_@user.Id" style="display:none">
+                        <span>Are you sure you want to delete?</span>
+                        <button type="submit" class="btn btn-danger">Yes</button>
+                        <a href="#" class="btn btn-primary"
+                           onclick="confirmDelete('@user.Id', false)">No</a>
+                    </span>
+
+                    <span id="deleteSpan_@user.Id">
+                        <a href="#" class="btn btn-danger"
+                           onclick="confirmDelete('@user.Id', true)">Delete</a>
+                    </span>
+                </form>
+            </div>
+        </div>
+        <br />
+    }
+}
+else
+{
+    <div class="card">
+        <div class="card-header">
+            No users created yet
+        </div>
+        <div class="card-body">
+            <h4>
+                Use the button bellow to create a user
+            </h4>
+            <a class="btn btn-primary" style="width:auto" asp-controller="Account" asp-action="Register">
+                Add new user
+            </a>
+        </div>
+    </div>
+}

@@ -1,0 +1,111 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Assignment1
+build_property.RootNamespace = Assignment1
+build_property.ProjectDir = C:\Users\User\Desktop\MVC\Assignment1\Assignment1\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\User\Desktop\MVC\Assignment1\Assignment1
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/User/Desktop/MVC/Assignment1/Assignment1/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/MVC/Assignment1/Assignment1/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/MVC/Assignment1/Assignment1/Views/Administrator/CreateRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRvclxDcmVhdGVSb2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/MVC/Assignment1/Assignment1/Views/Administrator/EditRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRvclxFZGl0Um9sZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/MVC/Assignment1/Assignment1/Views/Administrator/EditUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRvclxFZGl0VXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/MVC/Assignment1/Assignment1/Views/Administrator/EditUsersInRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRvclxFZGl0VXNlcnNJblJvbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/MVC/Assignment1/Assignment1/Views/Administrator/ListRoles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRvclxMaXN0Um9sZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/MVC/Assignment1/Assignment1/Views/Administrator/ListUsers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRvclxMaXN0VXNlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/MVC/Assignment1/Assignment1/Views/Administrator/ManageUserRoles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRvclxNYW5hZ2VVc2VyUm9sZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/MVC/Assignment1/Assignment1/Views/Home/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/MVC/Assignment1/Assignment1/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/MVC/Assignment1/Assignment1/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/MVC/Assignment1/Assignment1/Views/NavbarButton/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmF2YmFyQnV0dG9uXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/MVC/Assignment1/Assignment1/Views/NavbarButton/CreateNavbarButtonPosition.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmF2YmFyQnV0dG9uXENyZWF0ZU5hdmJhckJ1dHRvblBvc2l0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/MVC/Assignment1/Assignment1/Views/NavbarButton/EditButton.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmF2YmFyQnV0dG9uXEVkaXRCdXR0b24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/MVC/Assignment1/Assignment1/Views/NavbarButton/EditNavbar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmF2YmFyQnV0dG9uXEVkaXROYXZiYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/MVC/Assignment1/Assignment1/Views/NavbarButton/EditNavbarButtonPosition.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmF2YmFyQnV0dG9uXEVkaXROYXZiYXJCdXR0b25Qb3NpdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/MVC/Assignment1/Assignment1/Views/NavbarButton/UpdateButtonOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmF2YmFyQnV0dG9uXFVwZGF0ZUJ1dHRvbk9yZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/MVC/Assignment1/Assignment1/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/MVC/Assignment1/Assignment1/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/MVC/Assignment1/Assignment1/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/MVC/Assignment1/Assignment1/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/MVC/Assignment1/Assignment1/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-e4gmbr770n

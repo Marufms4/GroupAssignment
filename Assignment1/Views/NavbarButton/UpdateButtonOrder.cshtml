@@ -1,0 +1,20 @@
+﻿@model List<EditButtonOrder>
+
+@{
+    ViewBag.Title = "Edit Navbar Button Order";
+}
+
+<form asp-action="UpdateButtonOrder" asp-controller="NavbarButton" method="post" enctype="multipart/form-data">
+    @for (int i = 0; i < Model.Count; i++)
+    {
+        <div class="form-check m-1">
+            <input type="hidden" asp-for="@Model[i].Id" />
+            <input type="hidden" asp-for="@Model[i].ButtonName" />
+            <input asp-for="@Model[i].Order" class="number" />
+            <label class="form-check-label" asp-for="@Model[i].Order">
+                @Model[i].ButtonName
+            </label>
+        </div>
+    }
+    <input type="submit" value="Update Order" class="btn btn-primary"/>
+</form>

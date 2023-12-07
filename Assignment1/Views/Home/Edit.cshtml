@@ -1,0 +1,78 @@
+﻿@model EditViewModel
+@{
+    ViewBag.Title = "Edit Chairman";
+    var photoPath = "~/Images/" + (Model.ExistingPhotoPath ?? "default.jpg");
+}
+
+
+
+<form asp-action="Edit" asp-controller="Home" enctype="multipart/form-data" method="post">
+<section class="about">
+    <div class="about-image">
+        <h3>MESSAGE FROM CHAIRMAN</h3>
+            <img src="@photoPath" asp-append-version="true" id="selectedImage" />
+            <br />
+            <div class="col-sm-10">
+                <div class="custom-file">
+                    <input multiple asp-for="Photo" class="form-control custom-file-input" id="imageInput" onchange="displayImage()">
+                </div>
+            </div>
+        <a href="" class="btn">Message</a>
+        <a href="" class="btn">Biography</a>
+        <a href="" class="btn">Academic Profile</a>
+        <a href="" class="btn">Contact</a>
+    </div>
+    <div class="about-content">
+        <input asp-for="Description" />
+        <a href="" class="read-more">Read More</a>
+    </div>
+</section>
+
+
+<div class="bg">
+    <section class="about-1">
+        <input type="checkbox" asp-for="IsMissionSelected"/>
+            <div class="about-image">
+            <input asp-for="Mission" />
+            <a href="" class="read-more-1">Read More</a>
+        </div>
+        <div class="about-content">
+            <h2>MISSION</h2>
+        </div>
+    </section>
+
+    <section class="about-2">
+            <input type="checkbox" asp-for="IsVisionSelected" />
+        <div class="about-content">
+            <h2>VISION</h2>
+        </div>
+        <div class="about-image">
+            <input asp-for="Vision" />
+            <a href="" class="read-more-1">Read More</a>
+        </div>
+    </section>
+
+    <section class="about-1">
+            <input type="checkbox" asp-for="IsGoalSelected" />
+        <div class="about-image">
+            <input asp-for="Goal" />
+            <a href="" class="read-more-1">Read More</a>
+        </div>
+        <div class="about-content">
+            <h2>OURS GOALS</h2>
+        </div>
+    </section>
+
+    <section class="about-2">
+            <input type="checkbox" asp-for="IsValuesSelected"/>
+        <div class="about-content">
+            <h2>CORE VALUES</h2>
+        </div>
+        <div class="about-image">
+            <input asp-for="Values" />
+            <a href="" class="read-more-1">Read More</a>
+        </div>
+    </section>
+</div>
+<button type="submit" class="btn btn-primary">Update</button>
+</form>

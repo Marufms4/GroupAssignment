@@ -1,0 +1,17 @@
+﻿@model LoginButtonPosition
+
+@{
+    ViewBag.Title = "Create Button Position";
+}
+
+<form asp-action="CreateNavbarButtonPosition" asp-controller="NavbarButton" enctype="multipart/form-data">
+    <label>
+        <input asp-for="Position" type="radio" name="position" value="Right" checked>
+        Right
+    </label>
+    <label>
+        <input asp-for="Position" type="radio" name="position" value="Left">
+        Left
+    </label>
+    <button type="submit" class="btn btn-primary"> Create </button>
+</form>

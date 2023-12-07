@@ -1,0 +1,37 @@
+﻿@model List<EditNavbarViewModel>
+
+    @{
+        ViewBag.Title = "Edit Navbar Button";
+    }
+
+<form method="post">
+    <div class="card">
+        <a asp-action="Create" asp-controller="NavbarButton" class="btn btn-primary"> Create New Button </a>
+        <div class="card-header">
+            <h2>Add or Remove Navbar Button </h2>
+        </div>
+        <div class="card-body">
+            @for (int i = 0; i < Model.Count; i++)
+            {
+                <div class="form-check m-1">
+                    <input type="hidden" asp-for="@Model[i].id">
+                    <input type="hidden" asp-for="@Model[i].buton">
+                    <input asp-for="@Model[i].IsSelected" class="form-check-input" />
+                    <label class="form-check-label" asp-for="@Model[i].IsSelected">
+                        @Model[i].buton
+                    </label>
+                </div>
+                <a class="btn btn-primary" asp-action="EditButton" asp-controller="NavbarButton" asp-route-id="@Model[i].id"> Edit </a>
+                <a asp-controller="NavbarButton" asp-action="DeleteButton" asp-route-id="@Model[i].id" class="btn btn-danger">Delete</a>
+            }
+
+        </div>
+        <div class="card-footer">
+            <input type="submit" value="Update" class="btn btn-primary style="width:auto" />
+            <a class="btn btn-primary" style="width:auto" asp-action="Index" asp-controller="Home">Cancel</a>
+        </div>
+        <a asp-action="UpdateButtonOrder" asp-controller="NavbarButton" class="btn btn-primary">Edit Button Order</a>
+    </div>
+</form>
+
+
